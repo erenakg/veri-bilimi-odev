@@ -54,7 +54,7 @@ def extract_features(df):
     return df
 
 def normalize_features(df):
-    """1.7M veri için özellikleri normalize eder."""
+    """1.7 Milyon veri için özellikleri normalize eder."""
     print("🔧 Normalizasyon yapılıyor...")
     
     numeric_columns = df.select_dtypes(include=[np.number]).columns
