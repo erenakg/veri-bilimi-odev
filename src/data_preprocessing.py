@@ -3,12 +3,12 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 def load_data(file_path):
-    """1.7M veri setini yükler."""
+    """1.7 milyon veri setini yükler."""
     print("📥 Büyük veri dosyası yükleniyor...")
     return pd.read_csv(file_path)
 
 def clean_data(df):
-    """1.7M veri temizleme işlemlerini gerçekleştirir."""
+    """1.7 milyon veri temizleme işlemlerini gerçekleştirir."""
     print(f"🧹 Temizleme öncesi: {df.shape}")
     
     # Eksik değerleri kontrol et
